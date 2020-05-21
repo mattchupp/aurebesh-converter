@@ -3,16 +3,26 @@
   src: url('fonts/aurebesh/Aurebesh.ttf');
 }
 
+body {
+  background-color: #444444;
+  color: white;
+}
+
 .App {
   text-align: center;
 }
 
 /* target both text areas */
 #english, #aurebesh {
+  background-color: #777777;
+  color: white;
+  margin-top: 2rem;
   height: 500px;
   width: 600px;
   font-size: 1.5rem;
   padding: .5rem;
+  outline: none;
+  resize: none;
 }
 
 #english {
