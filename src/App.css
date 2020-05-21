@@ -7,12 +7,18 @@
   text-align: center;
 }
 
+/* target both text areas */
+#english, #aurebesh {
+  height: 500px;
+  width: 600px;
+  font-size: 1.5rem;
+  padding: .5rem;
+}
+
 #english {
   font-family: sans-serif;
-  height: 100%;
 }
 
 #aurebesh {
   font-family: 'Aurebesh';
-  height: 100%;
 }
