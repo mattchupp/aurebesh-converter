@@ -8,6 +8,10 @@ git clone https://github.com/mattchupp/aurebesh-converter.git ./your/directory
 ```
 
 ```sh
+cd /your/directory/
+```
+
+```sh
 yarn start
 ```
 Check it out at [http://localhost:3000](http://localhost:3000)
