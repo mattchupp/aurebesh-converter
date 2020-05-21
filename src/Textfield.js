@@ -1,4 +1,5 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import './App.css';
 
 class Textfield extends Component {
   constructor() {
@@ -20,7 +21,7 @@ class Textfield extends Component {
         <textarea id="english" onChange={this.handleChange}></textarea>
         <textarea id="aurebesh" value={this.state.inputText}></textarea>
       </div>
-    )
+    );
   }
 }
 
