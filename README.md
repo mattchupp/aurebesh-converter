@@ -1,6 +1,16 @@
 # English to Aurebesh Convertor
 
-[Aurebesh](https://starwars.fandom.com/wiki/Aurebesh) is the language of Star Wars. This just takes input from one text field and changes the font to Aurebesh outputting to the other. Easy.  
+[Aurebesh](https://starwars.fandom.com/wiki/Aurebesh) is the language of Star Wars. This just takes input from one text field and changes the font to Aurebesh outputting to the other. Easy. 
+
+## Check it out
+```sh
+git clone https://github.com/mattchupp/aurebesh-converter.git ./your/directory
+```
+
+```sh
+yarn start
+```
+Check it out at [http://localhost:3000](http://localhost:3000)
 
 ## Available Scripts
 
