@@ -19,7 +19,7 @@ class Textfield extends Component {
     return (
       <div>
         <textarea id="english" onChange={this.handleChange}></textarea>
-        <textarea id="aurebesh" value={this.state.inputText}></textarea>
+        <textarea id="aurebesh" value={this.state.inputText} disabled></textarea>
       </div>
     );
   }
