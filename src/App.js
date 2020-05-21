@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Textfield from './Textfield';
+import Translator from './Translator';
 
 function App() {
   return (
     <div className="App">
-      <Textfield />
+      <Translator />
     </div>
   );
 }

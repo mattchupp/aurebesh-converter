@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 
-class Textfield extends Component {
+class Translator extends Component {
   constructor() {
     super();
     this.state = {
@@ -18,11 +18,11 @@ class Textfield extends Component {
   render() {
     return (
       <div>
-        <textarea id="english" onChange={this.handleChange}></textarea>
-        <textarea id="aurebesh" value={this.state.inputText} disabled></textarea>
+        <textarea id="english" onChange={this.handleChange} placeholder="Type some text"></textarea>
+        <textarea id="aurebesh" value={this.state.inputText} disabled placeholder="Type some text"></textarea>
       </div>
     );
   }
 }
 
-export default Textfield
+export default Translator
