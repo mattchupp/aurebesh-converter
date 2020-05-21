@@ -6,13 +6,19 @@ class Textfield extends Component {
     this.state = {
       inputText: ""
     }
+
+    this.handleChange = this.handleChange.bind(this);
+  }
+
+  handleChange(event) {
+    this.setState({inputText: event.target.value});
   }
 
   render() {
     return (
       <div>
-        <textarea id="english"></textarea>
-        <textarea id="aurebesh"></textarea>
+        <textarea id="english" onChange={this.handleChange}></textarea>
+        <textarea id="aurebesh" value={this.state.inputText}></textarea>
       </div>
     )
   }
